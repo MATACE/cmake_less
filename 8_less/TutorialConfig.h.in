@@ -1,0 +1,14 @@
+// the configured options and settings for Tutorial
+#define Tutorial_VERSION_MAJOR @Tutorial_VERSION_MAJOR@
+#define Tutorial_VERSION_MINOR @Tutorial_VERSION_MINOR@
+
+// #cmakedefine
+// 当VAL是非0时或布尔值为True #define VAL 非0数
+// 当VAL是0时或布尔值为False或没有值未定义 #undef VAL
+#cmakedefine PROJECT_VERSION_MAJOR @PROJECT_VERSION_MAJOR@
+#cmakedefine PROJECT_VERSION_MINOR @PROJECT_VERSION_MINOR@
+
+// 根据USE_MYMATH是否定义控制cpp中的文件的条件执行
+#cmakedefine USE_MYSQRT
+
+#cmakedefine NO_DEFINE

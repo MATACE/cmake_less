@@ -1,0 +1,7 @@
+// the configured options and settings for Tutorial
+// TODO 10: Define Tutorial_VERSION_MAJOR and Tutorial_VERSION_MINOR
+#define PROJECT_VERSION_MAJOR ${PROJECT_VERSION_MAJOR}
+#define PROJECT_VERSION_MINOR @PROJECT_VERSION_MINOR@
+
+// 或者Cmake中的字符串
+#define DEBUG_NO "@DEBUG_NO@"
